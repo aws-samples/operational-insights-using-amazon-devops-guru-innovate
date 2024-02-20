@@ -1,6 +1,6 @@
 # Gaining operational insights with AIOps using Amazon DevOps Guru
 
-This lab is provided as part of **[AWS Innovate Modern Applications Edition](https://aws.amazon.com/events/aws-innovate/apj/modern-apps/)**.
+This lab is provided as part of **[AWS Innovate AI/ML and Data Edition](https://aws.amazon.com/events/aws-innovate/apj/aiml-data/)**.
 
 ℹ️ You will run this lab in your own AWS account. Please follow directions at the end of the lab to remove resources to avoid future costs.
 
@@ -212,20 +212,17 @@ Navigate to **Recommendations** section, it's where Amazon DevOps Guru provides 
 
 You can follow the recommendations to remediate the issues
 
-## **Clean Up**
-1. Navigate to Amazon CloudFormation Console, click on the **DevOpsGuru** stack and select **Delete**
+## **Conclusion**
+Throughout this lab, you have learn how to enable Amazon DevOps Guru for your account in a typical serverless environment and observe the insights and recommendations generated for various activities.
 
-2. Click on **myServerless-Stack** and select **Delete**
+As described in the [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected),it recommends to regularly analyze the collected metrics to proactively identify and mitigate issues before they affect business outcomes.
 
-3. Click on **EnableDevOpsGuruForServerlessCfnStack** and select **Delete**
-
-4. Navigate to **Dynamo DB Console** and delete DDB table created previously. 
-
-Your stacks will take some time to be deleted. You can track its progress in the "Events" tab. When it is done, the status will change from "_DELETE_IN_PROGRESS_" to "_DELETE_COMPLETE_". It will then disappear from the list.
+Visit the [AWS Well-Architected Framework white paper](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) and below related Best Practices for more information:
+- [OPS08-BP01 Analyze workload metrics](https://docs.aws.amazon.com/wellarchitected/latest/framework/ops_workload_observability_analyze_workload_metrics.html)
 
 ## Survey
-Let us know what you thought of this session and how we can improve the presentation experience for you in the future by completing [this event session poll](https://amazonmr.au1.qualtrics.com/jfe/form/SV_5BWPHDlxVcsRbo2?Session=HOL02). 
-Participants who complete the surveys from AWS Innovate Online Conference will receive a gift code for USD25 in AWS credits <sup> 1, 2 & 3 </sup>. AWS credits will be sent via email by November 30, 2023.
+Let us know what you thought of this session and how we can improve the presentation experience for you in the future by completing [this event session poll](https://amazonmr.au1.qualtrics.com/jfe/form/SV_bmgERAD8tX0Eb6m?Session=HAN1). 
+Participants who complete the surveys from AWS Innovate Online Conference will receive a gift code for USD25 in AWS credits <sup> 1, 2 & 3 </sup>. AWS credits will be sent via email by **March 29, 2024**.
 Note: Only registrants of AWS Innovate Online Conference who complete the surveys will receive a gift code for USD25 in AWS credits via email.
 
 <sup>1</sup>AWS Promotional Credits Terms and conditions apply: https://aws.amazon.com/awscredits/
