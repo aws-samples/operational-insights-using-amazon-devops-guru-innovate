@@ -109,7 +109,7 @@ aws cloudformation create-stack \
 --parameters ParameterKey=CfnStackNames,ParameterValue=myServerless-Stack \
 --region ${AWS_REGION}
 ```
-When the stack is created, navigate to the Amazon DevOps Guru console.
+When the stack is created, navigate to the [Amazon DevOps Guru console](https://us-east-1.console.aws.amazon.com/devops-guru/home?region=us-east-1).
 Choose Settings.
 Under CloudFormation stacks, locate **myServerless-Stack**.
 
